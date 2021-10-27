@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;  
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.group1, .group2, .group3, .group4 {
+	float : left;
+	width: 10%;
+	padding: 2%;
+	margin: auto;
+	text-align: justify;
+	position: relative;
+}
+
+#header {
+	background : blue;
+	padding: 0;
+	margin: 0;
+}
+#header img{
+	 width: 100%;
+}
+
+#barre {
+	background : blue;
+	padding: 0.5%;
+	margin: 0% 10% 0% 10%;
+	border-radius: 30px;
+}
+
+#barre li {
+	padding-bottom: 100px;
+	margin: 0% 1% 0% 5%;
+	display: inline;
+	list-style: none;
+	
+}
+
+#mid img {
+	max-width: 100%;
+}
+
+.photopage1 {
+	float: left;
+	margin : 5% 0% 5% 0%;
+}
+
+#mid {
+	background : black;
+	padding: 0;
+	margin: 0% 20% 0% 20%;
+	border-radius: 1px;
+	color: grey;
+	font-size: 1.2em;
+	text-align: justify;
+
+}
+	
+#pied {
+	min-height: 100%;
+	width: auto;
+	overflow: auto;
+	margin: 5% 0% 0% 0%;
+	background: grey;
+	border-radius: 30px;
+}
+
+#pied .group1, #pied .group2, #pied .group3, #pied .group4{
+	text-align: left;
+	width: 300px;
+}
+
+#pied h3 {
+	font-size: 1em;
+	color: white;
+}
+
+#pied a {
+	color: white;
+	font-size: 0.85em;
+	text-decoration: none;
+}
+
+#pied a:hover{
+	color: #4B0082;
+}
+
+h1 {
+	text-align: center;
+}
+
+a.viewpic {
+  position:relative;
+  border-bottom:1px dashed #808080; 
+  text-decoration: none; 
+}
+
+a:hover.viewpic {
+  text-decoration: none; 
+  background: none;
+}
+
+a.viewpic span {
+	display: none;
+}
+
+a:hover.viewpic span {
+  display: inline; 
+  position: absolute;  
+  top: 20px; 
+  left: 10px; 
+  z-index: 20; 
+  width:100%; 
+  padding:2px 4px;
+}
